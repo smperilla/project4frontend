@@ -13,7 +13,7 @@ const Index = (props) => {
           <input type="text" name="subject" placeholder="Food" />
           <input type="text" name="details" placeholder="Drinks" />
           <input type="text" name="sides" placeholder="Sides" />
-          <input type="text" name="time" placeholder="Time" />
+          <input type="text" name="substitutions" placeholder="Substitutions" />
           <button>Create New Order</button>
         </Form>
       </div>

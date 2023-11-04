@@ -41,9 +41,9 @@ const Show = () => {
           />
           <input
             type="text"
-            name="time"
+            name="substitutions"
             placeholder="write details here"
-            defaultValue={post.time}
+            defaultValue={post.substitutions}
           />
           <button>Update Order</button>
         </Form>

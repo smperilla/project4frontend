@@ -18,7 +18,7 @@ const Post = ({ post }) => {
       </Link>
       <h2>{post.details}</h2>
       <h2>{post.sides}</h2>
-      <h2>{post.time}</h2>
+      <h2>{post.substitutions}</h2>
     </div>
   );
 };
