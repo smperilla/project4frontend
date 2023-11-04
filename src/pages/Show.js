@@ -33,6 +33,12 @@ const Show = () => {
             placeholder="write details here"
             defaultValue={post.details}
           />
+          <input
+            type="text"
+            name="sides"
+            placeholder="write details here"
+            defaultValue={post.sides}
+          />
           <button>Update Order</button>
         </Form>
         <Form action={`/delete/${post.id}`} method="post">

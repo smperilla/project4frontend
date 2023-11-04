@@ -17,8 +17,9 @@ const Post = ({ post }) => {
         <h1>{post.subject}</h1>
       </Link>
       <h2>{post.details}</h2>
+      <h2>{post.sides}</h2>
     </div>
   );
 };
 
-export default Post
+export default Post;

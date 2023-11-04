@@ -12,6 +12,7 @@ export const createAction = async ({ request }) => {
   const newTodo = {
     subject: formData.get("subject"),
     details: formData.get("details"),
+    sides: formData.get("sides"),
   };
 
   // send request to backend
@@ -39,6 +40,7 @@ export const updateAction = async ({ request, params }) => {
   const updatedTodo = {
     subject: formData.get("subject"),
     details: formData.get("details"),
+    sides: formData.get("sides"),
   };
 
   // send request to backend
