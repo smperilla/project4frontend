@@ -19,7 +19,7 @@ const Show = () => {
       <h1>{post.subject}</h1>
       <h2>{post.details}</h2>
       <div style={{ textAlign: "center" }}>
-        <h2>Create a Todo</h2>
+        <h2>Order</h2>
         <Form action={`/update/${post.id}`} method="post">
           <input
             type="text"
@@ -33,10 +33,10 @@ const Show = () => {
             placeholder="write details here"
             defaultValue={post.details}
           />
-          <button>Update Todo</button>
+          <button>Update Order</button>
         </Form>
         <Form action={`/delete/${post.id}`} method="post">
-          <button>Delete Todo</button>
+          <button>Cancel Order</button>
         </Form>
       </div>
       <Link to="/">

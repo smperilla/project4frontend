@@ -8,11 +8,11 @@ const Index = (props) => {
   return (
     <>
       <div style={{ textAlign: "center" }}>
-        <h2>Create a Todo</h2>
+        <h2>Create An Order</h2>
         <Form action="/create" method="post">
-          <input type="text" name="subject" placeholder="write subject here" />
-          <input type="text" name="details" placeholder="write details here" />
-          <button>Create New Todo</button>
+          <input type="text" name="subject" placeholder="Food" />
+          <input type="text" name="details" placeholder="Drinks" />
+          <button>Create New Order</button>
         </Form>
       </div>
       {todos.map((post) => (
